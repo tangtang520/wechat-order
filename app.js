@@ -200,9 +200,9 @@ var sched = later.parse.recur().every(1).second(),
     zz = later.setInterval(c, sched);
 
 var config = {
-    token: 'abc',
-    appid: 'wx78a6a6ceff29e2e3',
-    encodingAESKey: 'qMYd9Snxd6Kl5HAiCNosOh6KeZNF7cmR4dowBaeQMlO'
+    token: 'wechat',
+    appid: 'wx2a3767e2a57da7cb',
+    encodingAESKey: 'ihIKEsTfLjByQ0JYxWNdYMOMWJyda0UPt8DEg95hDoZ'
 };
 //点餐时间到，请给点餐人发消息，点餐已经结束，并且自动把进入的点餐记录发给此人，请此人电话订餐
 var ff;
