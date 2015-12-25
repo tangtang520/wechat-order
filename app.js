@@ -451,31 +451,35 @@ app.use('/weixin', wechat(config, function (req, res, next) {
     var username = message.FromUserName;
     var content = message.Content;
     console.log("message--->>>",message);
+    if(message.Event == "subscribe"){
+        //推送欢迎语
+        res.reply(articles);
+    }
 //    //设置关注微信号的提示语
     if(message.Content=='注册码'){
         res.reply(message.FromUserName);
     }
 //    //点击时间回复时间
     if(message.EventKey=='时间'){
-        //var timestamp=new Date().getTime();
-        //var date = new Date(timestamp);
-        //Y = date.getFullYear();
-        //M = (date.getMonth()+1 < 10 ? '0'+(date.getMonth()+1) : date.getMonth()+1);
-        //D = date.getDate();
-        //h = date.getHours();
-        //m = date.getMinutes();
-        //s = date.getSeconds();
-        //var getTime = "现在时间为:"+Y+"年"+M+"月"+D+"日"+h+"时"+m+"分"+s+"秒";
-        //console.log("all-->>>",getTime);
-        //res.reply(getTime);
-        res.reply([
-            {
-                title: '内心独白',
-                description: '只想安静的望着窗外飘过的每一朵雪花，感受它落在心底时的甘甜与清爽，就这样，这样，直到天昏，在泛黄路灯照耀下的雪花发出刺眼的光芒，猛地意识到，冬天来了！',
-                picurl: 'http://tangtangjingjing.qiniudn.com/weixin.jpg',
-                url: 'http://tangtang.gitcafe.io/media/card.html'
-            }
-        ]);
+        var timestamp=new Date().getTime();
+        var date = new Date(timestamp);
+        Y = date.getFullYear();
+        M = (date.getMonth()+1 < 10 ? '0'+(date.getMonth()+1) : date.getMonth()+1);
+        D = date.getDate();
+        h = date.getHours();
+        m = date.getMinutes();
+        s = date.getSeconds();
+        var getTime = "现在时间为:"+Y+"年"+M+"月"+D+"日"+h+"时"+m+"分"+s+"秒";
+        console.log("all-->>>",getTime);
+        res.reply(getTime);
+        //res.reply([
+        //    {
+        //        title: '内心独白',
+        //        description: '只想安静的望着窗外飘过的每一朵雪花，感受它落在心底时的甘甜与清爽，就这样，这样，直到天昏，在泛黄路灯照耀下的雪花发出刺眼的光芒，猛地意识到，冬天来了！',
+        //        picurl: 'http://tangtangjingjing.qiniudn.com/weixin.jpg',
+        //        url: 'http://tangtang.gitcafe.io/media/card.html'
+        //    }
+        //]);
     }
 //    //点击今日订餐人，发送给用户今日订餐人
     if((message.EventKey=='今日点餐人')&&(message.MsgType=='event')&&(message.Event=='CLICK')){
