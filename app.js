@@ -311,111 +311,89 @@ function odd(){
 jt = setInterval(odd,60*1000);
 
 //菜单列表
-//var menu = {
-//    "button":[
-//        {
-//            "name":"今日菜单",
-//            "sub_button":[
-//                {
-//                    "type":"click",
-//                    "name":"今日点餐人",
-//                    "key":"今日点餐人"
-//                },
-//                {
-//                    "type":"view",
-//                    "name":"今日菜单",
-//                    "url":"http://ch.dev.selcome.com/page?command=allMenu"
-//                },
-//                {
-//                    "type":"view",
-//                    "name":"图片菜单",
-//                    "url":"http://ch.dev.selcome.com/page?command=imgMenu"
-//                },
-//                {
-//                    "type":"view",
-//                    "name":"文字菜单",
-//                    "url":"http://ch.dev.selcome.com/page?command=txtMenu"
-//                },
-//                {
-//                    "type":"click",
-//                    "name":"时间",
-//                    "key":"时间"
-//                }
-//            ]
-//        },
-//        {
-//            "name":"已点菜单",
-//            "sub_button":[
-//                {
-//                    "type":"click",
-//                    "name":"今日点餐人",
-//                    "key":"今日点餐人"
-//                },
-//                {
-//                    "type":"view",
-//                    "name":"已点菜单",
-//                    "url":"http://ch.dev.selcome.com/page?command=showAllMenu"
-//                },
-//                {
-//                    "type":"click",
-//                    "name":"时间",
-//                    "key":"时间"
-//                }
-//            ]
-//        },
-//        {
-//            "name":"设置",
-//            "sub_button":[
-//                {
-//                    "type":"view",
-//                    "name":"本微信后台说明",
-//                    "url":"ch.dev.selcome.com/page?command=sayInfo"
-//                },
-//                {
-//                    "type":"view",
-//                    "name":"注册信息",
-//                    "url":"http://ch.dev.selcome.com/page?command=newPerMessage"
-//                },
-//                {
-//                    "type":"view",
-//                    "name":"上传菜单",
-//                    "url":"http://ch.dev.selcome.com/page?command=doMenu"
-//                },
-//                {
-//                    "type":"view",
-//                    "name":"通讯录",
-//                    "url":"http://ch.dev.selcome.com/page?command=doBook"
-//                },
-//                {
-//                    "type":"view",
-//                    "name":"点餐",
-//                    "url":"http://ch.dev.selcome.com/page?command=doAllFood"
-//                }
-//            ]
-//        }
-//    ]
-//}
 var menu = {
     "button":[
         {
-            "type":"click",
-            "name":"今日歌曲",
-            "key":"V1001_TODAY_MUSIC"
-        },
-        {
-            "name":"菜单",
+            "name":"今日菜单",
             "sub_button":[
                 {
+                    "type":"click",
+                    "name":"今日点餐人",
+                    "key":"今日点餐人"
+                },
+                {
                     "type":"view",
-                    "name":"搜索",
-                    "url":"http://www.soso.com/"
+                    "name":"今日菜单",
+                    "url":"http://wechat.getter.top/page?command=allMenu"
+                },
+                {
+                    "type":"view",
+                    "name":"图片菜单",
+                    "url":"http://wechat.getter.top/page?command=imgMenu"
+                },
+                {
+                    "type":"view",
+                    "name":"文字菜单",
+                    "url":"http://wechat.getter.top/page?command=txtMenu"
                 },
                 {
                     "type":"click",
-                    "name":"赞一下我们",
-                    "key":"V1001_GOOD"
-                }]
-        }]
+                    "name":"时间",
+                    "key":"时间"
+                }
+            ]
+        },
+        {
+            "name":"已点菜单",
+            "sub_button":[
+                {
+                    "type":"click",
+                    "name":"今日点餐人",
+                    "key":"今日点餐人"
+                },
+                {
+                    "type":"view",
+                    "name":"已点菜单",
+                    "url":"http://wechat.getter.top/page?command=showAllMenu"
+                },
+                {
+                    "type":"click",
+                    "name":"时间",
+                    "key":"时间"
+                }
+            ]
+        },
+        {
+            "name":"设置",
+            "sub_button":[
+                {
+                    "type":"view",
+                    "name":"本微信后台说明",
+                    "url":"http://wechat.getter.top/page?command=sayInfo"
+                },
+                {
+                    "type":"view",
+                    "name":"注册信息",
+                    "url":"http://wechat.getter.top/page?command=newPerMessage"
+                },
+                {
+                    "type":"view",
+                    "name":"上传菜单",
+                    "url":"http://wechat.getter.top/page?command=doMenu"
+                },
+                {
+                    "type":"view",
+                    "name":"通讯录",
+                    "url":"http://wechat.getter.top/page?command=doBook"
+                },
+                {
+                    "type":"view",
+                    "name":"点餐",
+                    "url":"http://wechat.getter.top/page?command=doAllFood"
+                }
+            ]
+        }
+    ]
 }
 
 //创建菜单
@@ -431,12 +409,8 @@ var articles = [
         "picurl":"http://tangtangjingjing.qiniudn.com/question.jpg"
     },
     {
-        "title":"我已注册，回复数字0不在发送本条信息",
-        "picurl":"http://tangtangjingjing.qiniudn.com/2399581_144428003_2.jpg"
-    },
-    {
         "title":"我还没注册，点击这里即可注册",
-        "url":"http://ch.dev.selcome.com/page?command=newPerMessage",
+        "url":"http://wechat.getter.top/page?command=newPerMessage",
         "picurl":"http://tangtangjingjing.qiniudn.com/20111006205037_5PLcK.thumb.700_0.jpg"
     }];
 
