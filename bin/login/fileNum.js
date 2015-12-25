@@ -9,7 +9,7 @@ exports.fileNum = function(req,res){
     //本地
     //var getPath = 'http://localhost:3000/public/output/'+username+'/';
     //服务器端
-    var getPath = 'http://wechat.tcreate.xyz/public/output/'+username+'/';
+    var getPath = 'http://wechat.getter.top/public/output/'+username+'/';
     fs.exists(__dirname+'/../../public/output/'+username,function(exists111){
         if(exists111){
 //            fs.stat(pathcc,function(err,stat){

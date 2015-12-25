@@ -136,7 +136,7 @@ function seeImageAll(){
                     //本地
                     //var url = "http://localhost:3000/public/haveFile/"+username+'.zip';
                     //服务器
-                    var url = "http://wechat.tcreate.xyz/public/haveFile/"+username+'.zip';
+                    var url = "http://wechat.getter.top/public/haveFile/"+username+'.zip';
 //                    document.getElementById('downLoo').href=url;
                     window.location.href=url;
 //                    $('#downLoo').attr("href",url);

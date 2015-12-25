@@ -9,7 +9,7 @@
 //global.mongodbHost = process.env.MONGO_PORT_27017_TCP_ADDR;
 //global.mongodbPort = process.env.MONGO_PORT_27017_TCP_PORT;
 //global.mongodbDB = "tang-server";
-global.downloadDomain = 'wechat.tcreate.xyz';     //下载文件的域名
+global.downloadDomain = 'wechat.getter.top';     //下载文件的域名
 //global.downloadDomain = 'localhost:3000';     //下载文件的域名
 //global.apkFile=__dirname+'/../public/haveFile/';//apkFiles路径
 //global.mongodbDB2 = 'miyu_process';  //程序数据库
