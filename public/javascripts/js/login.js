@@ -19,10 +19,10 @@ function getAuthCode(){
             $('#getCode').empty();
 //            console.log("2222222222222");
             //本地
-            $('#getCode').append("<img src='http://localhost:3000/public/images/code"+res.count+".png' height=35px width=102px>");
+            //$('#getCode').append("<img src='http://localhost:3000/public/images/code"+res.count+".png' height=35px width=102px>");
 
             //服务器
-            //$('#getCode').append("<img src='http://ch.dev.selcome.com/public/images/code"+res.count+".png' height=35px width=102px>");
+            $('#getCode').append("<img src='http://wechat.tcreate.xyz/public/images/code"+res.count+".png' height=35px width=102px>");
 
         }
     })

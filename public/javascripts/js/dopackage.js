@@ -134,9 +134,9 @@ function seeImageAll(){
 
                 if(res.code==0){
                     //本地
-                    var url = "http://localhost:3000/public/haveFile/"+username+'.zip';
+                    //var url = "http://localhost:3000/public/haveFile/"+username+'.zip';
                     //服务器
-                    //var url = "http://ch.dev.selcome.com/public/haveFile/"+username+'.zip';
+                    var url = "http://wechat.tcreate.xyz/public/haveFile/"+username+'.zip';
 //                    document.getElementById('downLoo').href=url;
                     window.location.href=url;
 //                    $('#downLoo').attr("href",url);

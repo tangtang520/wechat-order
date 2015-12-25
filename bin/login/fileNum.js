@@ -7,9 +7,9 @@ exports.fileNum = function(req,res){
     var username = req.param('username');
     var pathcc = __dirname+'/../../public/output/'+username;
     //本地
-    var getPath = 'http://localhost:3000/public/output/'+username+'/';
+    //var getPath = 'http://localhost:3000/public/output/'+username+'/';
     //服务器端
-    //var getPath = 'http://ch.dev.selcome.com/public/output/'+username+'/';
+    var getPath = 'http://wechat.tcreate.xyz/public/output/'+username+'/';
     fs.exists(__dirname+'/../../public/output/'+username,function(exists111){
         if(exists111){
 //            fs.stat(pathcc,function(err,stat){
