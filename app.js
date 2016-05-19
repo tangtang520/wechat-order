@@ -200,9 +200,9 @@ var sched = later.parse.recur().every(1).second(),
     zz = later.setInterval(c, sched);
 
 var config = {
-    token: 'wechat',
+    token: 'robot',
     appid: 'wx2a3767e2a57da7cb',
-    encodingAESKey: 'ihIKEsTfLjByQ0JYxWNdYMOMWJyda0UPt8DEg95hDoZ'
+    encodingAESKey: '5JI2mUqrFORaIQTVnhIWAZREysNy1DCRcRWLZ1MEyJ7'
 };
 //点餐时间到，请给点餐人发消息，点餐已经结束，并且自动把进入的点餐记录发给此人，请此人电话订餐
 var ff;
@@ -417,7 +417,7 @@ var articles = [
 app.use(express.query());
 var t;
 console.log('11111');
-app.use('/weixin', wechat(config, function (req, res, next) {
+app.use('/robot', wechat(config, function (req, res, next) {
 //
 //    // 微信输入信息都在req.weixin上
 
