@@ -200,9 +200,9 @@ var sched = later.parse.recur().every(1).second(),
     zz = later.setInterval(c, sched);
 
 var config = {
-    token: 'order',
+    token: 'robot',
     appid: 'wx2a3767e2a57da7cb',
-    encodingAESKey: 'AUCDNgVBEdbIyHyvZ1A1dwv9OHTnCAUViGb9eSTQXM2'
+    encodingAESKey: 'U45eF4xc0juLLci51Cqi4sMxFqWeAUKIJh2VaI1i9Is'
 };
 //点餐时间到，请给点餐人发消息，点餐已经结束，并且自动把进入的点餐记录发给此人，请此人电话订餐
 var ff;
