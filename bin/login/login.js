@@ -12,16 +12,16 @@ var binaryProvider=new BinaryProvider();
 var Fs=require('fs');
 var ObjectID=require("mongodb").ObjectID;
 
-var ccap = require('ccap')({
-    width:180,
-    generate:function(){
-        var s = 'ABCpqKL015XYZrsdefH67WIJghijklmn8DEFGabcVo9MN234OPQRSTUtuvwxyz';
-        var text = '';
-        for(var i=0;i<4;i++){
-            text+= s.substr(parseInt(Math.random()*36),1);
-        }
-        return text;
-    }});
+//var ccap = require('ccap')({
+//    width:180,
+//    generate:function(){
+//        var s = 'ABCpqKL015XYZrsdefH67WIJghijklmn8DEFGabcVo9MN234OPQRSTUtuvwxyz';
+//        var text = '';
+//        for(var i=0;i<4;i++){
+//            text+= s.substr(parseInt(Math.random()*36),1);
+//        }
+//        return text;
+//    }});
 
 
 
@@ -130,47 +130,47 @@ exports.match = function(req,res){
 
 }
 //生成验证码
-exports.getAutoCode=function(req,res){
-    if(req.session.count == null || req.session.count == undefined){
-        console.log("i do");
-        req.session.count = 0;
-    }
-    if(req.session.count >= 2){
-        var removeNum = req.session.count - 2;
-        try{
-            fs1.unlinkSync(__dirname+"/../../public/images/code"+ removeNum +'.png');
-//              fs.unlinkSync(__dirname+"/../../../webImages/code"+ removeNum +'.png');
-
-
-        }
-        catch (e){
-            console.log("error == ",e);
-        }
-    }
-    var ary = ccap.get();
-    var txt = ary[0];
-    var buf = ary[1];
-    console.log("txt======>>>",txt);
-//    var path="/data/project/secretchat_cms/public/images/update.png";
-    //在项目中的
-    var path= __dirname+"/../../public/images/code"+req.session.count+'.png';//本地
-    //把图片存到另外一个文件夹。不在项目中的
-//    var path= __dirname+"/../../../webImages/code"+req.session.count+'.png';//本地
-
-    var count = req.session.count;
-    req.session.count += 1;
-    console.log("path=====>>>",path)
-        fs1.writeFile(path ,buf, function(err)  {
-        if(err){
-            console.log("err====>>>",err);
-        }
-        else{
-            console.log()
-            req.session.code=txt;
-            res.send({text:txt,path:path,count:count});
-        }
-    });
-}
+//exports.getAutoCode=function(req,res){
+//    if(req.session.count == null || req.session.count == undefined){
+//        console.log("i do");
+//        req.session.count = 0;
+//    }
+//    if(req.session.count >= 2){
+//        var removeNum = req.session.count - 2;
+//        try{
+//            fs1.unlinkSync(__dirname+"/../../public/images/code"+ removeNum +'.png');
+////              fs.unlinkSync(__dirname+"/../../../webImages/code"+ removeNum +'.png');
+//
+//
+//        }
+//        catch (e){
+//            console.log("error == ",e);
+//        }
+//    }
+//    var ary = ccap.get();
+//    var txt = ary[0];
+//    var buf = ary[1];
+//    console.log("txt======>>>",txt);
+////    var path="/data/project/secretchat_cms/public/images/update.png";
+//    //在项目中的
+//    var path= __dirname+"/../../public/images/code"+req.session.count+'.png';//本地
+//    //把图片存到另外一个文件夹。不在项目中的
+////    var path= __dirname+"/../../../webImages/code"+req.session.count+'.png';//本地
+//
+//    var count = req.session.count;
+//    req.session.count += 1;
+//    console.log("path=====>>>",path)
+//        fs1.writeFile(path ,buf, function(err)  {
+//        if(err){
+//            console.log("err====>>>",err);
+//        }
+//        else{
+//            console.log()
+//            req.session.code=txt;
+//            res.send({text:txt,path:path,count:count});
+//        }
+//    });
+//}
 //找到数据库中的数据，并分页
 var pageNum = 5;
 exports.findInfo = function(req,res){
