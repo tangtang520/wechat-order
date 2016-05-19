@@ -7,7 +7,7 @@ var Db = require('mongodb').Db,
 var PasspoadDB = function () {
 };
 
-PasspoadDB.prototype.db = new Db(global.mongodbDB, new Server(global.mongodbHost, {auto_reconnect: true, poolSize: 5,user:'ecarlife',pass:'Q5tVjCaUZy3bG'}), {w: 0, native_parser: false});
+PasspoadDB.prototype.db = new Db(global.mongodbDB, new Server(global.mongodbHost, global.mongodbPort, {auto_reconnect: true, poolSize: 5,user:'ecarlife',pass:'Q5tVjCaUZy3bG'}), {w: 0, native_parser: false,user:'ecarlife',pass:'Q5tVjCaUZy3bG'});
 (function () {
     PasspoadDB.prototype.db.open(function(err, db) {
         if (err) {
