@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa951534-0419-4595-9033-1e130759e3ef" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/cap_img/captcha_0_4582_1463639424410_0.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/cap_img/captcha_0_4582_1463639424410_1.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/cap_img/captcha_0_4582_1463639424410_10.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/cap_img/captcha_0_4582_1463639424410_11.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/cap_img/captcha_0_4582_1463639424410_12.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/cap_img/captcha_0_4582_1463639424410_13.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/cap_img/captcha_0_4582_1463639424410_14.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/cap_img/captcha_0_4582_1463639424410_15.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/cap_img/captcha_0_4582_1463639424410_16.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/cap_img/captcha_0_4582_1463639424410_17.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/cap_img/captcha_0_4582_1463639424410_18.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/cap_img/captcha_0_4582_1463639424410_19.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/cap_img/captcha_0_4582_1463639424410_2.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/cap_img/captcha_0_4582_1463639424410_3.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/cap_img/captcha_0_4582_1463639424410_4.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/cap_img/captcha_0_4582_1463639424410_5.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/cap_img/captcha_0_4582_1463639424410_6.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/cap_img/captcha_0_4582_1463639424410_7.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/cap_img/captcha_0_4582_1463639424410_8.bmp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/cap_img/captcha_0_4582_1463639424410_9.bmp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/Config.js" afterPath="$PROJECT_DIR$/modules/Config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modules/Provider.js" afterPath="$PROJECT_DIR$/modules/Provider.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="wechat-order.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,10 +33,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Provider.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Provider.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/Provider.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3243243">
+            <state vertical-scroll-proportion="-4.4444447">
               <caret line="9" column="241" selection-start-line="9" selection-start-column="241" selection-end-line="9" selection-end-column="241" />
               <folding />
             </state>
@@ -77,11 +56,21 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.333333">
+            <state vertical-scroll-proportion="-5.6666665">
               <caret line="419" column="15" selection-start-line="419" selection-start-column="10" selection-end-line="419" selection-end-column="15" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.07506702">
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,6 +89,7 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/modules/Config.js" />
         <option value="$PROJECT_DIR$/modules/Provider.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -272,7 +262,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -545,16 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.333333">
-          <caret line="419" column="15" selection-start-line="419" selection-start-column="10" selection-end-line="419" selection-end-column="15" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/DataProvider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.6666665">
@@ -573,8 +553,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/Provider.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3243243">
+        <state vertical-scroll-proportion="-4.4444447">
           <caret line="9" column="241" selection-start-line="9" selection-start-column="241" selection-end-line="9" selection-end-column="241" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.6666665">
+          <caret line="419" column="15" selection-start-line="419" selection-start-column="10" selection-end-line="419" selection-end-column="15" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.07506702">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding />
         </state>
       </provider>
