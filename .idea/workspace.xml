@@ -2,142 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fa951534-0419-4595-9033-1e130759e3ef" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/cap.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/cap.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/hcaptha.cc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/CImg.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/Licence_CeCILL-C_V1-en.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/Licence_CeCILL_V2-en.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/README.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/cderror.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/cdjpeg.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jaricom.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jcapimin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jcapistd.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jcarith.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jccoefct.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jccolor.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jcdctmgr.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jchuff.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jcinit.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jcmainct.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jcmarker.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jcmaster.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jcomapi.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jconfig.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jcparam.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jcprepct.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jcsample.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jctrans.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jdapimin.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jdapistd.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jdarith.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jdatadst.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jdatasrc.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jdcoefct.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jdcolor.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jdct.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jddctmgr.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jdhuff.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jdinput.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jdmainct.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jdmarker.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jdmaster.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jdmerge.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jdpostct.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jdsample.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jdtrans.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jerror.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jerror.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jfdctflt.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jfdctfst.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jfdctint.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jidctflt.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jidctfst.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jidctint.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jinclude.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jmemmgr.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jmemnobs.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jmemsys.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jmorecfg.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jpegint.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jpeglib.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jquant1.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jquant2.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jutils.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/jversion.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/libjpeg.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/plugins/add_fileformat.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/plugins/cimgIPL.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/plugins/cimg_ipl.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/plugins/cimgmatlab.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/plugins/draw_gradient.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/plugins/jpeg_buffer.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/plugins/loop_macros.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/plugins/nlmeans.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/plugins/skeleton.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/plugins/vrml.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/plugins/vtk.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/resources/compile_win_icl.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/resources/compile_win_visualcpp.bat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/jpeglib/transupp.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/addon/libjpeg.dll" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/benchmark/generate.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/binding.gyp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/build/Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/build/Release/.deps/Release/hcaptha.node.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/build/Release/.deps/Release/obj.target/hcaptha/addon/cap.o.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/build/Release/.deps/Release/obj.target/hcaptha/addon/hcaptha.o.d" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/build/Release/hcaptha.node" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/build/Release/obj.target/hcaptha/addon/cap.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/build/Release/obj.target/hcaptha/addon/hcaptha.o" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/build/binding.Makefile" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/build/config.gypi" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/build/gyp-mac-tool" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/build/hcaptha.target.mk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/example/custom_get.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/example/custom_get2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/example/default_get.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/example/web_example.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/index.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/lib/dir.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/lib/gen.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/lib/hcap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/lib/timer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/make.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/node_modules/async/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/node_modules/async/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/node_modules/async/lib/async.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/node_modules/async/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/node_modules/nan/.dntrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/node_modules/nan/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/node_modules/nan/LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/node_modules/nan/appveyor.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/node_modules/nan/include_dirs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/node_modules/nan/nan.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/node_modules/nan/nan_implementation_12_inl.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/node_modules/nan/nan_implementation_pre_12_inl.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/node_modules/nan/nan_new.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/node_modules/nan/nan_string_bytes.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/node_modules/nan/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/node_modules/node-schedule/.npmignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/node_modules/node-schedule/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/node_modules/node-schedule/lib/increment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/node_modules/node-schedule/lib/schedule.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/node_modules/node-schedule/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/node_modules/node-schedule/test/convenience-method-test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/node_modules/node-schedule/test/date-convenience-methods-test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/node_modules/node-schedule/test/job-test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/node_modules/node-schedule/test/range-test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/node_modules/node-schedule/test/recurrence-rule-test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/readme.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/ccap/test/main_test.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/login/login.js" afterPath="$PROJECT_DIR$/bin/login/login.js" />
     </list>
     <ignored path="wechat-order.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -178,10 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/login/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3672922">
+            <state vertical-scroll-proportion="21.25">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -218,10 +83,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.3333333">
+            <state vertical-scroll-proportion="-1.5405406">
               <caret line="204" column="64" selection-start-line="204" selection-start-column="64" selection-end-line="204" selection-end-column="64" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -275,8 +140,8 @@
         <option value="$PROJECT_DIR$/modules/Provider.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/bin/login/login.js" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/interface.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -495,7 +360,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -795,16 +660,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.3333333">
-          <caret line="204" column="64" selection-start-line="204" selection-start-column="64" selection-end-line="204" selection-end-column="64" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/DataProvider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.6666665">
@@ -839,9 +694,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/login/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3672922">
+        <state vertical-scroll-proportion="21.25">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5405406">
+          <caret line="204" column="64" selection-start-line="204" selection-start-column="64" selection-end-line="204" selection-end-column="64" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

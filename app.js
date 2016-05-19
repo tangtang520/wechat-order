@@ -200,7 +200,7 @@ var sched = later.parse.recur().every(1).second(),
     zz = later.setInterval(c, sched);
 
 var config = {
-    token: 'order',
+    token: 'robot',
     appid: 'wx2a3767e2a57da7cb',
     encodingAESKey: 'U45eF4xc0juLLci51Cqi4sMxFqWeAUKIJh2VaI1i9Is'
 };
