@@ -13,7 +13,9 @@ PasspoadDB.prototype.db = new Db(global.mongodbDB, new Server(global.mongodbHost
         if (err) {
             throw err;
         }
-        PasspoadDB.prototype.db = db;
+        db.authenticate('ecarlife','Q5tVjCaUZy3bG' ,function(){
+            PasspoadDB.prototype.db = db;
+        });
     });
 })();
 exports.PasspoadDB = PasspoadDB;

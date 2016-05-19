@@ -11,7 +11,7 @@ exports.weixinNewPer = function(req,res){
     console.log("username--->>>",req.session.UserName);
     infoProvider.findOne({name:txt},{},function(err,resultAll){
         if(err){
-
+            console.log('err--->>',err);
         }else{
             if(resultAll==null||resultAll==undefined||resultAll==""){
                 infoProvider.insert({name:txt,tel:tel,code:code,isOrder:0},{},function(err,result){
