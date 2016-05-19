@@ -270,11 +270,11 @@ function odd(){
     //console.log("hour001--->>>",hour001);
     //console.log("minute001--->>>",minute001);
     if((hour001==3&&(minute001==1))){
-        var httpArry = ['http://182.254.240.238/interface?command=endMenu',
-            'http://182.254.240.238/interface?command=weixinDel',
-            'http://182.254.240.238/interface?command=weixinImgMenuDel',
-            'http://182.254.240.238/interface?command=senMenuPer',
-            'http://182.254.240.238/interface?command=noDoMenu'
+        var httpArry = ['http://182.254.240.238:12333/interface?command=endMenu',
+            'http://182.254.240.238:12333/interface?command=weixinDel',
+            'http://182.254.240.238:12333/interface?command=weixinImgMenuDel',
+            'http://182.254.240.238:12333/interface?command=senMenuPer',
+            'http://182.254.240.238:12333/interface?command=noDoMenu'
         ]
         for(var i=0;i<httpArry.length;i++){
             request(httpArry[i], function (error, response, body) {
@@ -324,17 +324,17 @@ var menu = {
                 {
                     "type":"view",
                     "name":"今日菜单",
-                    "url":"http://182.254.240.238/page?command=allMenu"
+                    "url":"http://182.254.240.238:12333/page?command=allMenu"
                 },
                 {
                     "type":"view",
                     "name":"图片菜单",
-                    "url":"http://182.254.240.238/page?command=imgMenu"
+                    "url":"http://182.254.240.238:12333/page?command=imgMenu"
                 },
                 {
                     "type":"view",
                     "name":"文字菜单",
-                    "url":"http://182.254.240.238/page?command=txtMenu"
+                    "url":"http://182.254.240.238:12333/page?command=txtMenu"
                 },
                 {
                     "type":"click",
@@ -354,7 +354,7 @@ var menu = {
                 {
                     "type":"view",
                     "name":"已点菜单",
-                    "url":"http://182.254.240.238/page?command=showAllMenu"
+                    "url":"http://182.254.240.238:12333/page?command=showAllMenu"
                 },
                 {
                     "type":"click",
@@ -369,27 +369,27 @@ var menu = {
                 {
                     "type":"view",
                     "name":"本微信后台说明",
-                    "url":"http://182.254.240.238/page?command=sayInfo"
+                    "url":"http://182.254.240.238:12333/page?command=sayInfo"
                 },
                 {
                     "type":"view",
                     "name":"注册信息",
-                    "url":"http://182.254.240.238/page?command=newPerMessage"
+                    "url":"http://182.254.240.238:12333/page?command=newPerMessage"
                 },
                 {
                     "type":"view",
                     "name":"上传菜单",
-                    "url":"http://182.254.240.238/page?command=doMenu"
+                    "url":"http://182.254.240.238:12333/page?command=doMenu"
                 },
                 {
                     "type":"view",
                     "name":"通讯录",
-                    "url":"http://182.254.240.238/page?command=doBook"
+                    "url":"http://182.254.240.238:12333/page?command=doBook"
                 },
                 {
                     "type":"view",
                     "name":"点餐",
-                    "url":"http://182.254.240.238/page?command=doAllFood"
+                    "url":"http://182.254.240.238:12333/page?command=doAllFood"
                 }
             ]
         }
@@ -410,7 +410,7 @@ var articles = [
     },
     {
         "title":"我还没注册，点击这里即可注册",
-        "url":"http://182.254.240.238/page?command=newPerMessage",
+        "url":"http://182.254.240.238:12333/page?command=newPerMessage",
         "picurl":"http://tangtangjingjing.qiniudn.com/20111006205037_5PLcK.thumb.700_0.jpg"
     }];
 
